@@ -10,7 +10,7 @@ namespace CinemaTicket.Migrations
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.Sql("INSERT INTO Categories VALUES  ('Action'),  ('Comedy'),  ('Drama'),  ('Documentary'),  ('Cartoon'),  ('Horror') ");
+            migrationBuilder.Sql("  INSERT INTO Categories VALUES  ('Action'),  ('Comedy'),  ('Drama'),  ('Documentary'),  ('Cartoon'),  ('Horror') ");
 
         }
 
@@ -18,6 +18,7 @@ namespace CinemaTicket.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.Sql("TRUNCATE TABLE Categories");
+
 
         }
     }

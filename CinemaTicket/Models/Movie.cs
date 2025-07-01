@@ -12,7 +12,7 @@
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
         public int CinemaId { get; set; }
-        public int CinmaId { get; set; }
+        public MovieStatus MovieStatus { get; set; }
         public int CategoryId { get; set; }
         public Cinema Cinema { get; set; }
         public Category Category { get; set; }
